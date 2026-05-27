@@ -3989,6 +3989,9 @@
     'use strict';
     Chart.register(ChartDataLabels);
 
+    // ── PERMISOS DE USUARIO (null = acceso total sin restricciones) ──
+    let _currentUserPerms = null;
+
     // ══════════════════════════════════════════════
     // REAL JSON DATA (loaded from root files)
     // ══════════════════════════════════════════════
